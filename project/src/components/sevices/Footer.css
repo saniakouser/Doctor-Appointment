@@ -1,0 +1,75 @@
+/* Add your styles here */
+/* Footer.css */
+
+.footer-container {
+    background-color: #354F8E;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .get-in-touch {
+    width: 300px;
+  }
+  
+  .get-in-touch p {
+    margin-bottom: 20px;
+  }
+  
+  .address {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .address i {
+    margin-right: 2px;
+    color: #13C5DD;
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  .quick-links,
+  .popular-links {
+    width: 200px;
+  }
+  .get{
+    color: #13C5DD;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a,
+  .popular-links a {
+    display: block;
+    color: #fff;
+    text-decoration:wavy;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  .footer-social i{
+   font-size: 20px;
+   color: #13C5DD;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  

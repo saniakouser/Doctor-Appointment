@@ -1,0 +1,47 @@
+
+  .mdical-service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+   
+  }
+  .service-head{
+    text-align: center;
+    padding: 20px;
+    color: #13c5dd;
+    padding-top: 70px;
+  }
+  .service-head2{
+    text-align: center;
+    color: #02373e;
+  }
+
+  .service {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #13c5dd;
+   margin: 10px;
+   padding-bottom: 5px;
+  
+  }
+
+  .service-img {
+    
+    height: auto;
+  }
+
+  .service-data p {
+    font-size: 16px;
+    color: gray; 
+    padding: 7px 10px;
+  }
+  .service-para{
+    font-size: 16px;
+    color: #333;
+  }
+
+  @media screen and (max-width: 700px) { 
+    .mdical-service {
+        flex-wrap: wrap;
+    }}

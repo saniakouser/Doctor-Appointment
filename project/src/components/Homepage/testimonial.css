@@ -1,0 +1,54 @@
+.Testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.head-1{
+    color: #13C5DD;
+    padding: 30px;
+}
+.test-part2,.test-part3,.test-part4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.user-image img,.user-image1 img,.user-image2 img{
+    border-radius: 50%;
+}
+.user-data p,.user-data1 p,.user-data2 p{
+    color: black;
+    line-height: 23px;
+}
+.track {
+    display: flex;   
+  }
+
+  .track1,
+  .track2,
+  .track3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+   border: 2px solid #13C5DD ;
+    margin: 10px;
+  }
+  .user-data2 h4,.user-data h4,.user-data3 h4{
+    color: rgb(5, 5, 118);
+  }
+
+  @media (max-width: 768px) {
+    .user-data p,.user-data1 p,.user-data2 p{
+        color: gray;
+        line-height: 20px;
+    }
+
+  }
+  
+ 

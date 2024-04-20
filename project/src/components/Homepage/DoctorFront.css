@@ -1,0 +1,88 @@
+.main-container{
+    display: flex;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 0px 50px;
+   
+
+}
+.content{
+    flex:1.5;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content p{
+    font-size: 15px;
+}
+.learn-more {
+    
+    background-color: green; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size */
+}
+.heading{
+    flex: 1.75;
+    padding: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    
+   
+
+
+}
+.doctor-advice{
+    flex:0.55;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10%;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.get-subscription{
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+  
+
+
+.subscribe{
+    display: flex;
+ flex: 1;
+ align-items: center;
+ justify-content: center;
+}
+
+/* Optional: Add hover effect */
+.learn-more:hover {
+    background-color: rgb(40, 233, 40); /* Darker blue on hover */
+}
+
+.banner{
+    flex:1
+}
+.heading{
+
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+span{
+    color: green;
+    margin: 5px;
+}

@@ -1,0 +1,142 @@
+
+  .mid-container {
+    display: flex;
+   
+
+  }
+
+  .middata {
+    flex: 0.75;
+    padding: 20px; /* Example padding */
+  }
+  .mid-banner{
+    flex: 1.25;
+  }
+
+  .mid-banner img {
+    height: auto; 
+  }
+  .middata {
+    margin-top: 10%;
+    text-align: center;
+    padding: 20px;
+    background-color: white; /* Example background color */
+  }
+
+  .mid-welcome {
+    font-size: 24px; /* Example font size */
+    font-weight: bold; /* Example font weight */
+    color: #333; /* Example text color */
+  }
+
+  .best,
+  .healthcare,
+  .solution {
+    font-size: 3rem; /* Example font size */
+    color: #13C5DD;
+    margin: 20%; 
+    font-weight: bolder;
+  }
+  
+  .appoint {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    cursor: pointer;
+    border: 2px solid #13C5DD; 
+    color: #13C5DD;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+
+  .appoint:hover {
+    background-color: #13C5DD; 
+    color: #fff; /* Example text color on hover */
+    border-color: #13C5DD; /* Example border color on hover */
+  }
+  .mid-mobile{
+    background-image: url("./doctorimg3.jpg");
+    background-size: cover;
+    height:50vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+  }
+  .mobile-middata {
+    text-align: center;
+    padding: 20px;
+  }
+  .mobile-mid-welcome {
+    font-size: 24px; /* Example font size */
+    font-weight: bold; /* Example font weight */
+    color: #333; /* Example text color */
+  }
+
+  .mobile-best,
+  .mobile-healthcare,
+  .mobile-solution {
+    font-size: 2rem; /* Example font size */
+    color: #03424a;
+    margin: 20%; 
+    font-weight: bolder;
+  }
+  
+  .mobile-appoint {
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    cursor: pointer;
+    border: 2px solid #0b2e32; 
+    color: #13C5DD;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+
+  .mobile-appoint:hover {
+    background-color: #13C5DD; 
+    color: #fff; /* Example text color on hover */
+    border-color: #13C5DD; /* Example border color on hover */
+  }
+  @media screen and (max-width: 1300px) { 
+    .mid-container{
+        width: 85%;
+    }
+    .mid-banner{
+        flex: 1;
+    }
+    .mid-banner img{
+        width: 107%; 
+        height: 100%;
+      }
+      .middata{
+        flex: 1;
+        font-size: 1rem;
+      }
+    
+  }
+  @media screen and (max-width: 700px) { 
+    .mid-container{
+        display: none;
+    }
+     .mid-mobile{
+        display: flex;
+    }
+    
+    
+  }
+
+
